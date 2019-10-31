@@ -1,0 +1,189 @@
+/* Stabilisco le regole generali */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+
+body {
+  overflow-x: hidden;
+}
+/* Metto l'immagine di sfondo e faccio in maniera si che occupi tutto lo schermo */
+
+header {
+  background-image: url(https://www.hotelpiazzabellini.com/images/background/appartamenti-04.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+/* Mi occupo del logo di airbnb */
+
+.logo {
+  position: relative;
+}
+
+.logo img {
+  max-width: 70px;
+  max-height: 70px;
+  position: absolute;
+  top : 30px;
+  left: 3%;
+}
+
+/* Preparo la parte del form / ricerca */
+
+.inputApparts {
+  width: 500px;
+  height: 450px;
+  background-color: white;
+  position: absolute;
+  left: 7%;
+  top: 20%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.inputApparts h1 {
+  padding-top: 20px;
+}
+
+.inputApparts h3, .inputApparts .position {
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.inputApparts .positionButt {
+  width: 50px;
+  height: 30px;
+}
+
+.inputApparts .position {
+  width: 350px;
+  height: 30px;
+}
+
+.searchGo {
+  color: white;
+  background-color: red;
+  padding: 20px;
+  font-size: 20px;
+  position: absolute;
+  right: 35%;
+  bottom: 10%;
+}
+
+
+/* Metto la nav bar in alto a destra */
+
+
+.navBar {
+  list-style: none;
+}
+
+.navBar li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+li:hover {
+  color: white;
+  font-weight: 1000;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+
+/* Mi occupo della sezione main */
+
+main {
+  width: 100vw;
+  height: 1300px;
+  position: relative;
+}
+
+
+.appartaments {
+  padding-top: 100px;
+  width: 100%;
+  height: 50%;
+
+}
+
+.appartaments h1 {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.appartament {
+  width: 240px;
+  height: 240px;
+  float: left;
+  margin: 120px;
+}
+
+.appartament img {
+  width: 200px;
+  height: 200px;
+}
+
+.appartament:hover img {
+  width: 300px;
+  height: 300px;
+}
+
+.shortDescrp {
+  display: none;
+}
+
+.appartament:hover .shortDescrp {
+  display: block;
+}
+
+
+
+/* Mi occupo del footer */
+
+footer {
+  width: 100vw;
+  height: 100vh;
+  background-color: azure;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Faccio il button per i contatti */
+
+#contact button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: green;
+  background-color: white;
+  padding: 20px;
+}
