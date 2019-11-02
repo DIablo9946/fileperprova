@@ -1,0 +1,52 @@
+main {
+  background-image: url(https://www.hotelpiazzabellini.com/images/background/appartamenti-04.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.inputApparts {
+  width: 500px;
+  height: 450px;
+  background-color: white;
+  position: absolute;
+  left: 7%;
+  top: 20%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.inputApparts h1 {
+  padding-top: 20px;
+}
+
+.inputApparts h3, .inputApparts .position {
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.inputApparts .positionButt {
+  width: 50px;
+  height: 30px;
+}
+
+.inputApparts .position {
+  width: 350px;
+  height: 30px;
+}
+
+.searchGo {
+  color: white;
+  background-color: red;
+  padding: 20px;
+  font-size: 20px;
+  position: absolute;
+  right: 35%;
+  bottom: 10%;
+}
