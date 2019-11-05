@@ -32,3 +32,43 @@ li:hover {
   border-bottom: 2px solid white;
   cursor: pointer;
 }
+
+.respNav {
+  display: none;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+/* For mobile */
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    max-width: 80px;
+    max-height: 80px;
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, 0%);
+  }
+
+  .navBar {
+    display: none;
+  }
+
+  .respNav {
+    display: block;
+    max-width: 70px;
+    max-height: 70px;
+  }
+
+  .nav {
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 100;
+  }
+
+
+}

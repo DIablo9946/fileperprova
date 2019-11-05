@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.containerApp {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.containerGriglia {
+  display: none;
+  width: 90%;
+}
+
+.active {
+  /* display: flex;
+  justify-content: center; */
+  display: block;
+}
+
+.classApp {
+  height: 1000px;
+  width: calc(25%);
+  float: left;
+}
+
+.app {
+  height: calc(35%);
+  border: 1px solid black;
+  background-color: yellow;
+  padding: 5px;
+  text-align: center;
+}
+
+.red .app {
+  background-color: red;
+}
+
+.green .app {
+  background-color: green;
+}
+
+p {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.second , .third {
+  display: none;
+}
+
+.prev, .next {
+  height: 20px;
+  margin-top: calc(8%);
+  position: absolute;;
+}
+
+.prev {
+  margin-right: 10px;
+  top: 3%;
+  left: 3%;
+}
+
+.next {
+  margin-left: 10px;
+  top: 3%;
+  right: 3%;
+}
+
+/* Impostazioni per tablet */
+
+@media only screen and (max-width: 968px) {
+  .containerGriglia {
+    display: none;
+    width: 90%;
+  }
+
+  .active {
+    /* display: flex;
+    justify-content: center; */
+    display: block;
+  }
+
+  .classApp {
+    height: 800px;
+    width: calc(50%);
+    float: left;
+  }
+}
+
+/* Impostazioni per cellulare */
+
+@media only screen and (max-width: 560px) {
+  .containerGriglia {
+    display: none;
+    width: 90%;
+  }
+
+  .active {
+    /* display: flex;
+    justify-content: center; */
+    display: block;
+  }
+
+  .classApp {
+    height: 600px;
+    width: calc(100%);
+    float: left;
+  }
+}
+
+}
